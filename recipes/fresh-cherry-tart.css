@@ -1,0 +1,54 @@
+div.background {
+    color: rgb(228, 44, 75);
+}
+
+#main-title.title {
+    background-color: rgb(236, 72, 97);
+    color: rgb(236, 161, 174);
+    font-size: 67px;
+    font-family: tahoma, arial, sans-serif;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.pic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+}
+
+.pic2 {
+    display: block;
+    margin-left: 750px;
+    margin-right: 750px;
+    width: auto;
+    height: 520px;
+}
+
+.title {
+    color: rgb(236, 161, 174);
+    font-size: 40px;
+    font-family: tahoma, sans-serif;
+}
+
+.text.word, .list, .steps {
+    color: rgb(180, 10, 36);
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+
+.steps {
+    list-style: none;
+}
+
+#directions, #steps-to-make {
+    color: rgb(231, 89, 110);
+    font-size: 19px;
+    font-family: helvetica, sans-serif;
+}
+
+#steps-to-make {
+    color: rgb(238, 44, 76);
+}
