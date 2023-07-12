@@ -1,5 +1,5 @@
 div.background {
-    color: rgb(228, 44, 75);
+    color: rgb(236, 94, 149);
 }
 
 #main-title.title {
@@ -9,6 +9,10 @@ div.background {
     font-family: tahoma, arial, sans-serif;
     font-weight: 800px;
     text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 20px auto;
+    width: 650px;
 }
 
 .pic1 {
@@ -17,6 +21,10 @@ div.background {
     margin-right: auto;
     width: 40%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
 
 .pic2 {
@@ -25,22 +33,38 @@ div.background {
     margin-right: 750px;
     width: auto;
     height: 520px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 45px;
 }
 
 .title {
     color: rgb(236, 161, 174);
     font-size: 40px;
     font-family: tahoma, sans-serif;
+    box-sizing: border-box;
+    padding: 9px;
+    border: 2px;
+    margin: 30px;
 }
 
 .text.word, .list, .steps {
     color: rgb(180, 10, 36);
     font-size: 20px;
     font-family: arial, sans-serif;
+    box-sizing: border-box;
+    padding-left: 25px;
+    border: 2px;
+    margin: 15px;
+    line-height: 32px;
 }
 
 .steps {
     list-style: none;
+    padding-left: 10px;
+    margin-left: -10px;
 }
 
 #directions, #steps-to-make {
@@ -52,3 +76,14 @@ div.background {
 #steps-to-make {
     color: rgb(238, 44, 76);
 }
+
+#steps-to-make #directions {
+    margin-right: 17px;
+}
+
+.list {
+    margin-left: 20px;
+}
+
+
+
